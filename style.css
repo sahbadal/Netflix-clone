@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+:root{
+    --textColor:#fff;
+    --bottonColor:rgb(229, 9, 20);
+    --headingFontSize:2.2rem;
+    --headingFontWeight:900;
+    --bgColor:#000;
+    --textSize:2.8rem;
+    --paraSize:1.5rem;
+}
+body,html{
+    scroll-behavior: smooth;
+}
+.hero-section{
+    background-image:
+    linear-gradient( rgba(0, 0,0, 0.4), rgba(0,0,0, 0.8)),
+    url('home.png');
+    width: 100%;
+    height: 95vh;
+    background-position: center;
+    border-bottom: 9px solid rgb(42, 40, 40);
+}
+nav{
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 16px;
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+.logo a{
+    color:rgb(225, 19, 29);
+    text-decoration: none;
+    font-size: 2.8rem;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+}
+.language-botton{
+    margin-right: 25px;
+    position: relative;
+}
+ .selectbtn{
+    padding:5px 25px;
+    background: transparent;
+    color:var(--textColor);
+    border-radius: 3px;
+    font-size: 17px;
+    background: rgba(69, 61, 61, 0.589);
+}
+.fa-sharp{
+    position: absolute;
+    color:var(--textColor);
+    top: 9px;
+    left: 5px;
+}
+.signbtn a{
+    text-decoration: none;
+    color:var(--textColor);
+    background: var(--bottonColor);
+    padding: 8px 18px;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: .5s ease-in-out;
+}
+.signbtn a:hover{
+    background:rgb(187, 10, 19) ;
+}
+.section-content{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50% ,-50%);
+}
+.section-content h1{
+    font-size: var(--headingFontSize);
+    font-weight: var(--headingFontWeight);
+    margin: 20px 0px;
+    color:var(--textColor);
+}
+.section-content h3{
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 18px 0px;
+    color:var(--textColor);
+}
+.section-content p{
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 26px 0px 0px;
+    font-weight: 500;
+    color:var(--textColor);
+}
+.inputbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+input{
+    width: 410px;
+    height: 55px;
+    margin-right: 20px;
+    padding: 0px 8px;
+    background: transparent;
+    border-radius: 5px;
+    background: rgba(58, 51, 51, 0.386);
+    border: 1px solid #ccc;
+}
+.inputbox a{
+    text-decoration: none;
+    color:var(--textColor);
+    background: var(--bottonColor);
+    padding: 16px 38px;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    transition: .4s ease-in-out;
+}
+.inputbox a:hover{
+    background:rgb(187, 10, 19) ;
+}
+::placeholder{
+    font-size: 1.1rem;
+    color:var(--textColor);
+}
+/* end of nav and hero section */
+
+.upper-container {
+   position: absolute;
+   left: 53%; 
+}
+.container-image{
+    position: relative;
+}
+.upper-container-next{
+    position: absolute;
+    top:230%;
+    left:19%;
+    z-index: 40;
+}
+/* enjoy section starts */
+.main-section{
+    background: var(--bgColor);
+    background-image: linear-gradient( rgba(0, 0,0, 0.4), rgba(0,0,0, 0.8));
+    border-bottom: 9px solid rgb(42, 40, 40);
+    /* margin-bottom: 50px; */
+    padding-bottom: 80px;
+    padding-top: 40px;
+    width: 100%;
+}
+.container{
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;  
+}
+.container-content h1{
+    font-size:var(--textSize);
+    font-family: var(--headingFontWeight);
+    color:var(--textColor);
+}
+.container-content p{
+    font-size: var(--paraSize);
+    margin-top: 30px;
+    line-height: 1.8rem;
+    color:var(--textColor);
+}
+.download{
+    width:350px;
+    padding-block: 10px;
+    background: #000;
+    border: 2px solid #ccc;
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.content h4{
+    color:var(--textColor);
+    font-weight: 600;
+}
+.content p{
+    color:rgb(18, 18, 218);
+}

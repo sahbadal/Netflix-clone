@@ -1,0 +1,17 @@
+@media screen and (max-width:424px){
+    .hero-section{
+        max-width:100%;
+        height: 95vh;
+        background-position:initial;
+        border-bottom: 9px solid rgb(42, 40, 40);
+    }
+    .container{
+        width: 100%;
+        max-width: 80%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;  
+        flex-wrap: wrap;
+        flex-direction: column;
+}
+}
